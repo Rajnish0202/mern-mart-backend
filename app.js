@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(fileUpload());
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'https://mern-online.onrender.com'],
+    origin: ['http://localhost:3000', 'https://mernmart.vercel.app'],
     credentials: true,
   })
 );
